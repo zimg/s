@@ -1,0 +1,297 @@
+/* WebApp手机移动端公用叠层样式表; */
+@import "_base-1-font.less";
+@import "_base-2.less";
+
+
+/* 顶部 */
+header {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  line-height: 4.8rem;
+  zoom: 1;
+
+  background: #1bbc9b;
+  font-size: 1.8rem;
+  text-align: center;
+  border-bottom: .1rem solid #1bbc9b;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5.2rem;
+
+    .rti {
+      left: auto;
+      right: 0
+    }
+  }
+
+  a {
+    display: inline-block;
+    height: 5.2rem;
+    padding: 0 1rem;
+  }
+
+  img {
+    width: 7rem;
+    margin: -1.2rem auto auto;
+  }
+
+  .free {
+    height: 4.3rem;
+    text-align: left;
+    background: #fff;
+    border: none 0;
+    line-height: 4.3rem
+  }
+
+  .evade {
+    display: none
+  }
+
+  .inp {
+    height: 2.8rem
+  }
+
+  .layer a {
+    color: white
+  }
+
+  .btn {
+    padding: .2rem .4rem;
+    margin: .7rem 1rem 0;
+    vertical-align: top;
+    font-size: 1.2rem;
+    line-height: 2.4rem
+  }
+
+}
+
+
+
+/* 底部菜单 */
+footer {
+  margin-top: 1rem;
+  position: relative;
+  width: 100%;
+  height: 4.4rem;
+  overflow: hidden;
+
+  .upfloat {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    display: none;
+
+    width: 100%;
+    height: 4.4rem;
+    overflow: hidden
+  }
+
+  .mainmenu a {
+    float: left;
+    width: 20%;
+    display: block;
+    line-height: 1.7rem;
+    height: 3.8rem;
+    padding: .6rem 0 0;
+    font-size: 1.5rem;
+
+    i {
+      height: 1.8rem;
+      font-size: 1.8rem
+    }
+
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 1.8rem;
+      font-size: 1rem;
+      vertical-align: top
+    }
+
+    .maxht {
+      line-height: 3.8rem;
+      font-size: 1.5rem;
+      color: white
+    }
+  }
+}
+
+
+._slide {
+  width: 100%;
+  height: 0;
+  position: relative;
+
+  .slider {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    ul {
+      float: left;
+      width: 100%;
+      display: -webkit-box;
+      position: absolute;
+      text-align: center;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000px;
+      backface-visibility: hidden;
+      perspective: 1000px
+    }
+
+    li {
+      width: 100%;
+      height: 0;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      overflow: hidden;
+      position: relative
+    }
+
+    img {
+      width: 100%;
+      vertical-align: middle;
+      line-height: 100%
+    }
+
+    .transparent {
+      display: block;
+      float: left;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3rem;
+      background: rgba(0, 0, 0, .2);
+      line-height: 3rem;
+      color: #fff
+    }
+
+    .btnleft, .btnright {
+      position: absolute;
+      top: 50%;
+      margin-top: -20px;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      border-radius: 3px;
+      cursor: pointer;
+      background: url(../images/arrow.png) rgba(0, 0, 0, .5) no-repeat
+    }
+
+    .btnleft {
+      left: 5px
+    }
+
+    .btnright {
+      right: 5px;
+      background-position: -46px 0
+    }
+  }
+
+  .slider_status {
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+
+    i {
+      display: inline-block;
+      width: 1rem;
+      height: .3rem;
+      background-color: #ccc;
+      margin: 0 3px;
+      font-style: normal;
+      vertical-align: middle;
+
+      .sel {
+        background-color: #1bbc9b
+      }
+    }
+  }
+}
+
+
+
+/* slide */
+/*.re_slider{height:12rem;}*/
+.new_slider {
+  height: 19rem;
+  border-bottom: .1rem solid #e2e2e2;
+
+  .slider_status {
+    bottom: -3rem;
+    height: 3rem;
+    text-align: right;
+    width: 97%;
+    margin-right: 3%;
+
+    i {
+      width: auto;
+      height: auto;
+      background: transparent;
+      line-height: 3rem;
+
+      .sel {
+        background: transparent;
+
+        b {
+          background: #7f7f7f;
+          width: .55rem;
+          height: .55rem;
+        }
+
+        em {
+          display: inline-block
+        }
+      }
+    }
+
+    b {
+      display: inline-block;
+      width: .35rem;
+      height: .35rem;
+      border-radius: 10rem;
+      background: #ccc;
+      vertical-align: middle
+    }
+
+    em {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 25rem;
+      padding: 0 .5rem;
+      height: 3rem;
+      font-size: 1.3rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: normal;
+      line-height: 3rem;
+      vertical-align: middle
+    }
+  }
+}

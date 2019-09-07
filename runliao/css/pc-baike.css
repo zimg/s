@@ -1,0 +1,634 @@
+.work {
+  background: #fff;
+  margin-top: 62px;
+  padding: 20px;
+}
+.work h2 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+}
+.work h3 {
+  font-weight: normal;
+}
+.work .line {
+  float: left;
+  background: url(../img/know-icon-1.png) repeat-x 0 -254px;
+  height: 6px;
+  width: 90%;
+  margin-top: -33px;
+  margin-left: 75px;
+}
+.sake {
+  background: #fff;
+  margin-top: 25px;
+  padding: 20px;
+}
+.sake h2 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+}
+.sake h3 {
+  font-weight: normal;
+}
+.sake .line {
+  float: left;
+  background: url(../img/know-icon-1.png) repeat-x 0 -254px;
+  height: 6px;
+  width: 90%;
+  margin-top: -33px;
+  margin-left: 75px;
+}
+.use {
+  background: #fff;
+  margin-top: 25px;
+  padding: 20px;
+}
+.use h2 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+}
+.use h3 {
+  font-weight: normal;
+  border-bottom: #eee solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+.use .line {
+  float: left;
+  background: url(../img/know-icon-1.png) repeat-x 0 -254px;
+  height: 6px;
+  width: 90%;
+  margin-top: -33px;
+  margin-left: 75px;
+}
+.tabs {
+  margin-top: -36px;
+}
+.tabs .tabs-trigger {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-left: 110px;
+}
+.tabs .tabs-trigger li {
+  float: left;
+  width: 110px;
+  height: 35px;
+  line-height: 30px;
+  cursor: default;
+  text-align: center;
+  margin-right: 40px;
+  display: inline;
+}
+.tabs .tabs-trigger li.cur {
+  border-bottom: #009977 solid 4px;
+}
+.tabs .tabs-trigger li.t-1 i {
+  background-position: 0 0;
+}
+.tabs .tabs-trigger li.t-2 i {
+  background-position: 0 -49px;
+}
+.tabs .tabs-trigger li.t-3 i {
+  background-position: 0 -102px;
+}
+.tabs .tabs-trigger li.t-4 i {
+  background-position: 0 -150px;
+}
+.tabs .tabs-trigger li i {
+  width: 35px;
+  height: 34px;
+  background: url(../img/know-icon-1.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.tabs .tabs-content {
+  list-style: none;
+  margin: 0;
+  border-top: #eee solid 1px;
+  clear: both;
+  padding: 10px 0;
+}
+.tabs .tabs-content li {
+  float: left;
+  display: inline;
+  text-align: center;
+  width: 14.1%;
+  line-height: 40px;
+}
+.tabs .tabs-content li a {
+  color: #333;
+}
+.tabs .tabs-content li a:hover {
+  color: #009977;
+}
+.txt {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.work-col-1 {
+  float: left;
+  width: 345px;
+  margin-right: 20px;
+  display: inline;
+  overflow: hidden;
+}
+.work-col-2 {
+  float: left;
+  width: 345px;
+  display: inline;
+  overflow: hidden;
+}
+.media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -20px;
+}
+.media-list li {
+  float: left;
+  width: 345px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.media-list li blockquote {
+  margin: 5px 0;
+  font-size: 12px;
+}
+.media-list li cite {
+  font-style: normal;
+  color: #999;
+  font-size: 12px;
+}
+.media-list li .object {
+  float: left;
+  margin-right: 10px;
+  line-height: 0;
+}
+.text-list {
+  float: left;
+  width: 345px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.text-list li {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text-list li:before {
+  content: " ";
+  width: 4px;
+  height: 4px;
+  background: #009977;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -3px;
+  border-radius: 2px;
+}
+.text-list li.head {
+  position: static;
+  padding-left: 0;
+}
+.text-list li.head blockquote {
+  display: block;
+  font-size: 12px;
+  margin: 5px 0;
+}
+.text-list li a {
+  color: #666;
+}
+.text-list li a:hover {
+  color: #009977;
+}
+.text-list li span {
+  float: right;
+  color: #999;
+}
+.col-right {
+  margin-top: 63px;
+}
+.qa {
+  background: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.qa h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.qa ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.qa ul li:hover {
+  background: #f9f9f9;
+  padding: 5px;
+}
+.qa ul li:hover p.a {
+  display: block;
+}
+.qa ul li p {
+  position: relative;
+  padding-left: 20px;
+}
+.qa ul li p.a {
+  display: none;
+}
+.qa ul li p.a:before {
+  position: absolute;
+  content: "A";
+  width: 15px;
+  height: 15px;
+  background: #b33d2a;
+  color: #fff;
+  top: 2px;
+  left: 0;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+}
+.qa ul li p.q:before {
+  position: absolute;
+  content: "Q";
+  width: 15px;
+  height: 15px;
+  background: #1bbc9b;
+  color: #fff;
+  top: 2px;
+  left: 0;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+}
+.qa .links {
+  margin-top: -23px;
+  text-align: right;
+}
+.relates {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.relates h3 {
+  margin: 0 0 10px;
+}
+.relates .relate {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.relates .relate h4 {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.relates .relate p {
+  margin: 6px 0 0;
+}
+.relates .relate p.stat {
+  text-align: left;
+}
+.relates .relate p cite {
+  font-style: normal;
+  color: #999;
+}
+.relates .relate p em {
+  color: #fff;
+  font-style: normal;
+  display: inline-block;
+  text-indent: 5px;
+  text-align: left;
+  width: 31px;
+  background: url(../img/index-icon-3.png) no-repeat 0 -30px;
+  text-align: center;
+}
+.relates .relate p .sns {
+  float: right;
+}
+.relates .relate p .sns a {
+  background: url(../img/index-icon-3.png) no-repeat 0 -50px;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+  text-indent: -9999px;
+}
+.relates .relate p .sns .qzone {
+  background-position: 0 -50px;
+}
+.relates .relate p .sns .weibo {
+  background-position: 0 -71px;
+}
+.relates .relate p .sns .weixin {
+  background-position: 0 -92px;
+}
+.relates .relate p .like {
+  display: inline-block;
+  padding-left: 20px;
+  background: url(../img/index-icon-3.png) no-repeat 0 3px;
+}
+.relates .relate p .like:hover,
+.relates .relate p .liked {
+  background-position: 0 -13px;
+}
+.relates .relate .object {
+  float: left;
+  margin-right: 10px;
+}
+.know {
+  background: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.know ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 330px;
+}
+.know ul li {
+  float: left;
+  display: inline;
+  margin-right: 66px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.know ul li a {
+  color: #666;
+}
+.know ul li a i {
+  display: block;
+  width: 85px;
+  height: 80px;
+  background: url(../img/news-icon-2_8.png) no-repeat;
+  _background: url(../img/news-icon-2_8.png) no-repeat;
+  margin: 0 auto 10px;
+}
+.know ul li a.n-1 i {
+  background-position: 0 0;
+}
+.know ul li a.n-2 i {
+  background-position: 0 -104px;
+}
+.know ul li a.n-3 i {
+  background-position: 0 -207px;
+}
+.know ul li a.n-4 i {
+  background-position: 0 -312px;
+}
+.know ul li a.n-5 i {
+  background-position: 0 -417px;
+}
+.know ul li a.n-6 i {
+  background-position: 0 -520px;
+}
+.know-2 {
+  background: #fff;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.know-2 h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.know-2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+.know-2 ul li {
+  line-height: 30px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.know-2 ul li a {
+  color: #666;
+}
+.know-2 ul li a:hover {
+  color: #009977;
+}
+.know-2 ul li i {
+  float: right;
+  color: #999;
+  background: url(../img/index-icon-3.png) no-repeat 0 -237px;
+  padding-left: 20px;
+  font-style: normal;
+}
+.know-2 .links {
+  text-align: right;
+  margin-top: -20px;
+}
+.ad {
+  padding-top: 10px;
+  background: #fff;
+}
+.article {
+  background: #fff;
+  padding: 0 20px 20px;
+  position: relative;
+  /*padding-left: 65px;*/
+}
+.article h1 {
+  font-size: 28px;
+}
+.article h3 {
+  font-size: 20px;
+}
+.article p {
+  line-height: 2 !important;
+  margin-bottom: 10px;
+  text-indent: 2em;
+}
+.article img {
+  max-height: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.article table {
+  width: 100%;
+}
+.article table td,
+.article table th {
+  border: #eee solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+.article table th {
+  background: #f9f9f9;
+}
+.article .content h2 {
+  font-size: 18px;
+  color: #009977;
+  padding-left: 20px;
+  line-height: 1.2;
+  position: relative;
+  border-top: #f3f3f3 solid 1px;
+  padding-top: 30px;
+  text-indent: 0 !important;
+}
+.article .content h2:before {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  height: 22px;
+  left: 0;
+  background: #009977;
+  width: 10px;
+}
+.article .content h3 {
+  font-size: 16px;
+  text-indent: 28px;
+}
+.article .content p {
+  text-indent: 2em;
+}
+.article .content strong {
+  display: block;
+  font-size: 18px;
+  color: #009977;
+  padding-left: 20px;
+  line-height: 1.2;
+  position: relative;
+  border-top: #f3f3f3 solid 1px;
+  padding-top: 30px;
+  text-indent: 0 !important;
+}
+.article .content strong:before {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  height: 22px;
+  left: 0;
+  background: #009977;
+  width: 10px;
+}
+.article .borderd {
+  border: #eee solid 1px;
+  padding: 15px;
+}
+.steps-wrap {
+  margin-top: 20px;
+}
+.steps {
+  background: #caefe8;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.steps div.prev {
+  left: -22px;
+}
+.steps div.prev i {
+  background-position: 0 -22px;
+}
+.steps div.prev i.on {
+  background-position: -12px 0;
+}
+.steps div.next {
+  right: -22px;
+}
+.steps div.next i {
+  background-position: -12px -22px;
+}
+.steps div.next i.on {
+  background-position: 0 0;
+}
+.steps div.prev,
+.steps div.next {
+  padding-top: 20px;
+  position: absolute;
+  background: #000;
+  filter: alpha(opacity=50);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  width: 22px;
+  top: 0;
+  height: 40px;
+}
+.steps div.content {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+}
+.steps div i {
+  width: 12px;
+  height: 22px;
+  display: block;
+  margin: 0 auto 10px;
+  background: url(../img/know-icon-2.png) no-repeat;
+  _background: url(../img/know-icon-2_8.png) no-repeat;
+}
+.steps ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  position: absolute;
+}
+.steps ul li {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  float: left;
+  display: inline;
+  border-top: #AFE5DA solid 1px;
+}
+.steps ul li.cur {
+  border-top: #1bbc9b solid 2px;
+}
+.steps ul li.cur a {
+  background: #fff;
+}
+.steps ul li.cur a:hover {
+  background: #fff;
+}
+.steps ul li:first-child a {
+  border-left: none;
+}
+.steps ul li a {
+  color: #666;
+  font-size: 14px;
+  height: 42px;
+  padding: 9px 2px;
+  background: #caefe8;
+  display: block;
+  border-left: #AFE5DA solid 1px;
+}
+.steps ul li a:hover {
+  background: #e2f8f4;
+}
+/*# sourceMappingURL=pc-baike.css.map */

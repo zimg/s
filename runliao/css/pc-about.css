@@ -1,0 +1,78 @@
+.about {
+  width: 1100px;
+  margin: 0 auto;
+}
+.about .h1 {
+  word-wrap: break-word;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #494949;
+  margin: 0;
+  padding: 0 0 15px 0;
+  line-height: 1.1;
+}
+.about .content {
+  display: block;
+}
+.about .content-nav {
+  float: right;
+  width: 310px;
+}
+.about .content-nav li {
+  font: 14px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666;
+}
+.about .content-text {
+  float: left;
+  width: 700px;
+  padding-right: 40px;
+}
+.about .content-text li {
+  font-size: 1.2em;
+  margin: 0.83em 0;
+}
+.about .content-ask {
+  background-color: #FEFFFA;
+  border: 1px solid #F5F5F5;
+  margin-top: 30px;
+  padding: 10px 20px 20px;
+}
+.about .content-ask textarea {
+  width: 650px;
+  height: 146px;
+  border: 1px solid #e6e6e6;
+  color: #999;
+  font-size: 14px;
+}
+.about .content-ask .error {
+  display: none;
+}
+.about .content-ask .yc {
+  color: #999;
+  text-decoration: none;
+}
+.about .content-ask .nt {
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+.about .content-qr {
+  margin-top: 14px;
+}
+.about .content-qr .mail {
+  margin-top: 5px;
+  padding: 4px 0;
+}
+.about .content-qr .input {
+  border: 1px solid #ccc;
+  width: 260px;
+  height: 20px;
+  line-height: 20px;
+  color: #999;
+}
+/*# sourceMappingURL=pc-about.css.map */

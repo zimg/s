@@ -1,0 +1,245 @@
+/* 热门标签 */
+.hots_table {
+  padding: 0 1rem;
+}
+.hots_table [data-item]:last-child a {
+  margin-right: 0;
+}
+.hots_table a,
+.hots_table a:hover,
+.hots_table a:visited,
+.hots_table a:active {
+  color: #666;
+  text-decoration: none;
+}
+.hots_table a {
+  display: block;
+  height: 3.5rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  line-height: 30px;
+  white-space: nowrap;
+}
+.hots_table .ico-radius {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100rem;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+/* 分类 */
+.mark_h a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+.mark_h i {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.mark_h span {
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 2;
+}
+/* 广告 */
+.banner_bar {
+  padding: 1rem;
+  position: relative;
+}
+.banner_bar .image {
+  float: left;
+  width: 80%;
+  height: 15rem;
+  border: 0.1rem solid #e2e2e2;
+  margin-right: -0.1rem;
+  border-right: none 0;
+}
+.banner_bar .nav {
+  float: right;
+  width: 20%;
+  height: 15.1rem;
+  overflow: hidden;
+  zoom: 1;
+  border-right: 0.1rem solid #e2e2e2;
+  border-bottom: 0.1rem solid #e2e2e2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f5f5f5;
+}
+.banner_bar .nav a {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 3rem;
+  background: #f5f5f5;
+  border-top: 0.1rem solid #e2e2e2;
+  margin: 0 0 -0.1rem 0;
+  text-align: center;
+  line-height: 3rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.banner_bar .nav a:first-child {
+  background: #fff;
+}
+.banner_bar .bb-m {
+  width: 75%;
+  padding: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.banner_bar .bb-m span {
+  display: block;
+  float: left;
+  height: 3rem;
+  line-height: 3rem;
+}
+.banner_bar .bb-m span + span {
+  margin-left: 0.9rem;
+  font-size: 1rem;
+}
+.banner_bar .bb-m i {
+  display: block;
+  line-height: 1.5rem;
+}
+/* 列表样式一 */
+.table_a li {
+  padding: 0 1rem 1.5rem;
+  border-bottom: 0.1rem solid #e2e2e2;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 1.5rem;
+  position: relative;
+}
+.table_a li h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.table_a li p {
+  padding-top: 1.2rem;
+  line-height: 1;
+}
+.table_a li .image {
+  width: 34%;
+  height: 7.5rem;
+  float: left;
+}
+.table_a li .face {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.8rem;
+  float: left;
+  margin-top: -0.6rem;
+}
+.table_a li .face img {
+  border-radius: 100rem;
+}
+.table_a li .imgtxt {
+  float: right;
+  width: 62%;
+}
+.table_a li .imgtxt strong {
+  font-weight: normal;
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 3.6rem;
+  line-height: 1.2;
+}
+/* 列表样式二 */
+.table_b li {
+  padding: 1rem;
+  border-bottom: 0.1rem solid #e2e2e2;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+.table_b li h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.table_b li p {
+  padding-top: 0.8rem;
+  line-height: 1;
+  font-size: 1.2rem;
+}
+.table_b li .image {
+  width: 12%;
+  height: 3.5rem;
+  float: left;
+  border-radius: 100rem;
+  border: 1px solid #e2e2e2;
+}
+.table_b li .image img {
+  border-radius: 100rem;
+}
+.table_b li .imgtxt {
+  float: right;
+  width: 72%;
+  position: relative;
+  margin-right: 5rem;
+}
+.table_b li .imgtxt strong {
+  display: block;
+  width: 100%;
+  line-height: 1.2;
+  height: 1.8rem;
+  font-weight: normal;
+}
+.table_b li .imgtxt .ico-morearrow {
+  position: absolute;
+  margin-top: 0.5rem;
+  right: -5rem;
+}
+/* 栏目标题 */
+.head_bar {
+  overflow: hidden;
+  zoom: 1;
+  padding: 0.6rem 0;
+  min-height: 3.5rem;
+  background: #f2f2f2;
+}
+.head_bar .bg_white {
+  background: #fff;
+}
+.head_bar strong,
+.head_bar h1 {
+  display: block;
+  float: left;
+  min-height: 1.8rem;
+  border-left: 0.4rem solid #1dbd9c;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #1dbd9c;
+}
+.head_bar h1.special {
+  border: none 0;
+  font-size: 1.8rem;
+  color: #333;
+  line-height: 2.4rem;
+}
+.list_search li .imgtxt strong {
+  height: 1.8rem;
+  margin: 0;
+}
+/*# sourceMappingURL=mip-index.css.map */
