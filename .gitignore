@@ -1,0 +1,14 @@
+app.*/data/cache/*
+app.*/data/html/*
+app.*/data/logs/*
+app.*/data/session/*
+app.*/vendor/ounun
+app.*/vendor/cms.cc
+app.*/vendor/ounun_example
+app.*/environment.txt
+app.*/app/config2.php
+app.*/app/config.prod.php
+
+!.gitkeep
+.settings
+.idea
