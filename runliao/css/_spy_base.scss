@@ -1,0 +1,12 @@
+// 这段代码不会被输出到最终生成的CSS文件，因为它没有被任何代码所继承。
+%other-styles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// 下面代码会正常输出到生成的CSS文件，因为它被其接下来的代码所继承。
+%message-common {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
