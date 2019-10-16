@@ -38,10 +38,9 @@ a:hover {
   display: block;
   margin-bottom: 20px;
   border-radius: 4px; }
-
-.uc-button-publish b {
-  float: right;
-  margin-top: 15px; }
+  .uc-button-publish b {
+    float: right;
+    margin-top: 15px; }
 
 .text-dot {
   width: 5px;
@@ -53,15 +52,13 @@ a:hover {
 .icon-edit {
   width: 22px;
   height: 22px;
-  background: url("../img/uc-sp-8.png") no-repeat -43px -150px;
-  display: inline-block; }
-
+  display: inline-block;
+  background: url("../img/uc-sp-8.png") no-repeat -43px -150px; }
 .icon-qa {
   width: 22px;
   height: 22px;
-  background: url("../img/uc-sp-8.png") no-repeat -69px -148px;
-  display: inline-block; }
-
+  display: inline-block;
+  background: url("../img/uc-sp-8.png") no-repeat -69px -148px; }
 .icon-right-arrow {
   border: #b4b4b4 solid 3px;
   height: 0;
@@ -119,31 +116,26 @@ a:hover {
   height: 245px;
   background: url("../img/uc-b-2.gif") top center;
   margin-bottom: 20px; }
-
-.user-board .container {
-  width: 1000px;
-  margin: 0 auto; }
-
-.user-board .nav-wrap {
-  height: 46px;
-  background: rgba(6, 142, 114, 0.2);
-  clear: both;
-  position: relative;
-  top: 10px; }
-
-.user-board .nav-wrap nav {
-  line-height: 46px;
-  font-size: 14px; }
-
-.user-board .nav-wrap nav a {
-  float: left;
-  display: inline;
-  padding: 0 20px;
-  color: #00ae8a; }
-
-.user-board .nav-wrap nav a.active {
-  background: #1bbc9b;
-  color: #fff; }
+  .user-board .container {
+    width: 1000px;
+    margin: 0 auto; }
+  .user-board .nav-wrap {
+    height: 46px;
+    background: rgba(6, 142, 114, 0.2);
+    clear: both;
+    position: relative;
+    top: 10px; }
+    .user-board .nav-wrap nav {
+      line-height: 46px;
+      font-size: 14px; }
+      .user-board .nav-wrap nav a {
+        float: left;
+        display: inline;
+        padding: 0 20px;
+        color: #00ae8a; }
+        .user-board .nav-wrap nav a.active {
+          background: #1bbc9b;
+          color: #fff; }
 
 .user-base-info {
   width: 550px;
@@ -195,7 +187,7 @@ a:hover {
 .visit-info {
   margin: 120px 0 0 0;
   background: rgba(255, 255, 255, 0.8);
-  width: 440px;
+  width: 270px;
   height: 41px;
   line-height: 41px;
   box-shadow: 0 1px 1px #ccc; }

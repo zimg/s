@@ -58,12 +58,12 @@ a:hover {
     display: block;
     margin-bottom: 20px;
     border-radius: 4px;
+    b {
+        float: right;
+        margin-top: 15px;
+    }
 }
 
-.uc-button-publish b {
-    float: right;
-    margin-top: 15px;
-}
 
 .text-dot {
     width: 5px;
@@ -72,30 +72,30 @@ a:hover {
     border-radius: 2px;
     display: inline-block;
 }
-
-.icon-edit {
-    width: 22px;
-    height: 22px;
-    background: url("../img/uc-sp-8.png") no-repeat -43px -150px;
-    display: inline-block;
+.icon {
+    &-edit{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        background: url("../img/uc-sp-8.png") no-repeat -43px -150px;
+    }
+    &-qa{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        background: url("../img/uc-sp-8.png") no-repeat -69px -148px;
+    }
+    &-right-arrow {
+        border: #b4b4b4 solid 3px;
+        height: 0;
+        width: 0;
+        border-right: none;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        display: block;
+    }
 }
 
-.icon-qa {
-    width: 22px;
-    height: 22px;
-    background: url("../img/uc-sp-8.png") no-repeat -69px -148px;
-    display: inline-block;
-}
-
-.icon-right-arrow {
-    border: #b4b4b4 solid 3px;
-    height: 0;
-    width: 0;
-    border-right: none;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    display: block;
-}
 
 .ui-text-important {
     color: #ff6600;
@@ -159,36 +159,31 @@ a:hover {
     height: 245px;
     background: url("../img/uc-b-2.gif") top center;
     margin-bottom: 20px;
-}
-
-.user-board .container {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.user-board .nav-wrap {
-    height: 46px;
-    background: rgba(6, 142, 114, .2);
-    clear: both;
-    position: relative;
-    top: 10px;
-}
-
-.user-board .nav-wrap nav {
-    line-height: 46px;
-    font-size: 14px;
-}
-
-.user-board .nav-wrap nav a {
-    float: left;
-    display: inline;
-    padding: 0 20px;
-    color: #00ae8a;
-}
-
-.user-board .nav-wrap nav a.active {
-    background: #1bbc9b;
-    color: #fff;
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .nav-wrap {
+        height: 46px;
+        background: rgba(6, 142, 114, .2);
+        clear: both;
+        position: relative;
+        top: 10px;
+        nav {
+            line-height: 46px;
+            font-size: 14px;
+            a {
+                float: left;
+                display: inline;
+                padding: 0 20px;
+                color: #00ae8a;
+                &.active {
+                    background: #1bbc9b;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
 
 .user-base-info {
@@ -249,7 +244,7 @@ a:hover {
 .visit-info {
     margin: 120px 0 0 0;
     background: rgba(255, 255, 255, .8);
-    width: 440px;
+    width: 270px;
     height: 41px;
     line-height: 41px;
     box-shadow: 0 1px 1px #ccc;

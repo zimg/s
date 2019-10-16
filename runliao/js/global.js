@@ -5,12 +5,12 @@ if(fn_login){
   if(uname){
     document.getElementById('fn_login').innerHTML=  '<a class="j2-login" rel="nofollow" href="/user/">'+uname +'</a>' +
         '<span class="j2-login">&nbsp;|&nbsp;</span>' +
-        '<a rel="nofollow" style="float:right" href="/login/logout/">退出</a>';
+        '<a rel="nofollow" style="float:right" href="/user/login/logout.html">退出</a>';
   }else {
     document.getElementById('fn_login').innerHTML= '<div id="fn_login" class="top-nav-login">'
-        +'<a class="j2-login" href="/login/" rel="nofollow">登录&nbsp;</a>' +
+        +'<a class="j2-login" href="/user/login/" rel="nofollow">登录&nbsp;</a>' +
         '<span class="j2-login">&nbsp;|&nbsp;</span>' +
-        '<a style="float:right;" href="/login/register/" rel="nofollow">注册</a>'
+        '<a style="float:right;" href="/user/login/register.html" rel="nofollow">注册</a>'
         +'</div>';
   }
 }
