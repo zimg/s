@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.text-list li {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
 html,
 body {
   background: url("../img/uc-b-1.gif");
@@ -278,14 +284,14 @@ a:hover {
 .ui-media-list .ui-media-list-item {
   float: left;
   display: inline;
-  width: 120px;
+  width: 192px;
   margin-right: 20px; }
 
 .ui-media-list-item .media-img {
   position: relative;
   line-height: 0;
   height: 120px;
-  width: 120px; }
+  width: 192px; }
 
 .ui-media-list-item .media-img img {
   width: 100%;

@@ -5,6 +5,10 @@
 ///*   */
 ///*    margin: 0 auto;*/
 ///*}*/
+@import '../static_g_scss/_extend';
+@import '../static_g_scss/_include';
+@import '../static_g_scss/_var';
+
 
 html,
 body {
@@ -360,7 +364,7 @@ a:hover {
 .ui-media-list .ui-media-list-item {
     float: left;
     display: inline;
-    width: 120px;
+    width: 192px;
     margin-right: 20px;
 }
 
@@ -372,7 +376,7 @@ a:hover {
     position: relative;
     line-height: 0;
     height: 120px;
-    width: 120px;
+    width: 192px;
 }
 
 .ui-media-list-item .media-img img {
@@ -468,11 +472,13 @@ a:hover {
 
 .text-list {
     margin-bottom: -10px;
+
 }
 
 .text-list li {
     font-size: 14px;
     margin: 5px 0 10px;
+    @extend %nowrap;
 }
 
 .text-list li .text-dot {
