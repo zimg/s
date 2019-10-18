@@ -12,3 +12,4 @@ app.*/app/config.prod.php
 !.gitkeep
 .settings
 .idea
+.sass-cache
