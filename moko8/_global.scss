@@ -29,7 +29,7 @@ a {
   text-decoration: none;
   color: #666;
 
-  box-shadow: 1px 1px 4px #D2d2d2;
+  // box-shadow: 1px 1px 4px #D2d2d2;
 
   &:hover {
     color: #fa4b6e;
@@ -39,4 +39,30 @@ a {
       opacity: 0.9;
     }
   }
+}
+
+
+// 通用
+.cen {
+  margin: 0 auto;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.left, .left_page {
+  float: left;
+  width: 100%;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.clr {
+  clear: both;
 }
