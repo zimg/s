@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-@import "global";
-@import "ads";
+@import "../scss/global";
+@import "../scss/ads";
 
 .head{
   &_search {
@@ -11,7 +11,7 @@
     line-height: 50px;
   }
   &_index {
-    background: url(img/head_bg.gif) repeat-x;
+    background: url(../img/pc/head_bg.gif) repeat-x;
     width: 100%;
     float: left;
     height: 165px;
@@ -45,7 +45,7 @@
           float: right;
           margin-left: 10px;
           b {
-            background: url(img/common.png) no-repeat;
+            background: url(../img/pc/common.png) no-repeat;
             width: 16px;
             height: 16px;
             float: left;
@@ -92,7 +92,7 @@
       &.nav_rec {
         width: 110px;
         margin-right: 0;
-        background: url(img/common.png) 0 -140px no-repeat;
+        background: url(../img/pc/common.png) 0 -140px no-repeat;
         text-align: left;
         float: right;
         padding-left: 85px;
@@ -100,7 +100,7 @@
         &:hover {
           border: none;
           height: 35px;
-          background: url(img/common.png) 0 -175px no-repeat;
+          background: url(../img/pc/common.png) 0 -175px no-repeat;
         }
       }
     }
@@ -111,7 +111,7 @@
   width: 200px;
   height: 32px;
   float: left;
-  background: url(img/common.png) 0 -25px no-repeat;
+  background: url(../img/pc/common.png) 0 -25px no-repeat;
   line-height: 32px;
   color: #999999;
   font-size: 12px;
@@ -220,7 +220,7 @@
       width: 5px;
       height: 31px;
       float: left;
-      background: url(img/common.png) 0 -215px no-repeat;
+      background: url(../img/pc/common.png) 0 -215px no-repeat;
       margin-top: 18px;
     }
     &title {
@@ -232,7 +232,7 @@
         width: 120px;
         height: 37px;
         float: left;
-        background: url(img/common.png) 0 -62px no-repeat;
+        background: url(../img/pc/common.png) 0 -62px no-repeat;
       }
     }
   }
@@ -263,7 +263,7 @@
   .LeftBotton,  .RightBotton, .LeftBotton:hover, .RightBotton:hover {
     height: 37px;
     width: 20px;
-    background: url(img/common.png) 0 -102px no-repeat;
+    background: url(../img/pc/common.png) 0 -102px no-repeat;
     overflow: hidden;
     float: left;
     display: inline;
@@ -271,13 +271,13 @@
     cursor: pointer;
   }
   .RightBotton {
-    background: url(img/common.png) -25px -102px no-repeat;
+    background: url(../img/pc/common.png) -25px -102px no-repeat;
   }
   .LeftBotton:hover {
-    background: url(img/common.png) -59px -102px no-repeat;
+    background: url(../img/pc/common.png) -59px -102px no-repeat;
   }
   .RightBotton:hover {
-    background: url(img/common.png) -84px -102px no-repeat;
+    background: url(../img/pc/common.png) -84px -102px no-repeat;
   }
   .Cont {
     width: 880px;
@@ -514,7 +514,7 @@ li.wh170 {
   padding: 15px 0 15px 18px;
   height: 17px;
   line-height: 17px;
-  background: url(img/page.gif) no-repeat left;
+  background: url(../img/pc/page.gif) no-repeat left;
   color: #666666;
 }
 
@@ -701,7 +701,7 @@ li.wh170 {
 li.w130 {
   width: 150px;
   float: left;
-  margin: 0 20px 10px 0px;
+  margin: 0 20px 10px 0;
   .w130img {
     width: 130px;
     overflow: hidden;
@@ -866,7 +866,7 @@ li.w170 {
       float: left;
       height: 28px;
       line-height: 28px;
-      background: url(img/point.gif) left no-repeat;
+      background: url(../img/pc/point.gif) left no-repeat;
       padding-left: 10px;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -964,7 +964,7 @@ li.w170 {
 
 .startitle {
   width: 100%;
-  background: url(img/startitle.jpg) repeat-x;
+  background: url(../img/pc/startitle.jpg) repeat-x;
   font-size: 14px;
   color: #999999;
   font-weight: 800;
@@ -1009,7 +1009,7 @@ ul.starnews li a {
   padding-left: 10px;
   line-height: 20px;
   height: 20px;
-  background: url(img/point.gif) left no-repeat;
+  background: url(../img/pc/point.gif) left no-repeat;
   font-size: 14px;
   float: left;
 }
@@ -1034,7 +1034,7 @@ ul.starnews li span {
 }
 
 li.recnews {
-  background: url(img/point.gif) left no-repeat;
+  background: url(../img/pc/point.gif) left no-repeat;
   height: 22px;
   line-height: 22px;
   float: left;
@@ -1057,7 +1057,7 @@ li.recnews {
     width: 100%;
     float: left;
     margin-bottom: 15px;
-    background: url(img/startitle.jpg) repeat-x;
+    background: url(../img/pc/startitle.jpg) repeat-x;
     height: 45px;
     line-height: 45px;
     padding-top: 15px;
@@ -1111,7 +1111,7 @@ li.recnews {
       float: left;
       height: 30px;
       line-height: 30px;
-      background: url(img/point.gif) left no-repeat;
+      background: url(../img/pc/point.gif) left no-repeat;
       &.line {
         background: none;
         border-bottom: 1px dashed #CCCCCC;
@@ -1225,7 +1225,7 @@ li.recnews {
       float: left;
       height: 30px;
       line-height: 30px;
-      background: url(img/point.gif) left no-repeat;
+      background: url(../img/pc/point.gif) left no-repeat;
     }
     a {
       font-size: 14px;
@@ -1291,7 +1291,7 @@ a.map_rec {
   color: #FE8092
 }
 a.mx_key {
-  background: url(img/key.gif) no-repeat left;
+  background: url(../img/pc/key.gif) no-repeat left;
   padding-left: 15px;
   font-size: 14px;
   margin-right: 10px;
@@ -1304,9 +1304,9 @@ a.mx_key {
   display: inline-block;
   height: 48px;
   width: 44px;
-  background: url(img/arrow.png) no-repeat -44px 0;
+  background: url(../img/pc/arrow.png) no-repeat -44px 0;
   &:hover {
-    background: url(img/arrow.png) no-repeat;
+    background: url(../img/pc/arrow.png) no-repeat;
   }
 }
 
