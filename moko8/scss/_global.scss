@@ -3,6 +3,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fo
   margin: 0;
   padding: 0
 }
+
 body, button, input, select, textarea {
   font-size: 12px;
   font-family: "微软雅黑", Arial;
@@ -17,18 +18,17 @@ ul, li {
 }
 
 img {
-  border: none
+  border: none;
 }
 
 body {
-  background: url(../img/body_bg.gif) repeat;
+  background: url(../img/pc/body_bg.gif) repeat;
   color: #333333;
 }
 
 a {
   text-decoration: none;
   color: #666;
-
   // box-shadow: 1px 1px 4px #D2d2d2;
 
   &:hover {
